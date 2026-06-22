@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Pulsar Property Improvements | Licensed Electrical Contractor</title>
+<meta name="description" content="Pulsar Property Improvements is a licensed, insured electrical contractor handling panel upgrades, rewiring, EV chargers, lighting, generators, and repairs. Request a free quote." />
+<link rel="icon" type="image/png" href="assets/ppi-logo.png" />
+
+<!-- Fonts: Bricolage Grotesque (display), Hanken Grotesk (body), Space Mono (utility labels) -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=Hanken+Grotesk:wght@400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<header class="nav" id="top">
+  <div class="wrap nav__inner">
+    <a class="brand" href="#top" aria-label="Pulsar Property Improvements home">
+      <!-- compact pulsar mark, inline so it works on any background -->
+      <svg class="brand__mark" viewBox="0 0 40 40" aria-hidden="true">
+        <g stroke="var(--gold)" stroke-width="2.4" stroke-linecap="round">
+          <line x1="20" y1="3"  x2="20" y2="14"/>
+          <line x1="20" y1="26" x2="20" y2="37"/>
+          <line x1="3"  y1="20" x2="14" y2="20"/>
+          <line x1="26" y1="20" x2="37" y2="20"/>
+          <line x1="8"  y1="8"  x2="15" y2="15"/>
+          <line x1="25" y1="25" x2="32" y2="32"/>
+          <line x1="32" y1="8"  x2="25" y2="15"/>
+          <line x1="15" y1="25" x2="8"  y2="32"/>
+        </g>
+        <circle cx="20" cy="20" r="4.4" fill="var(--ink)"/>
+      </svg>
+      <span class="brand__text">Pulsar<span class="brand__sub">Property Improvements</span></span>
+    </a>
+
+    <nav class="nav__links" aria-label="Primary">
+      <a href="#services">Services</a>
+      <a href="#specialties">Specialties</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <a href="#contact" class="btn btn--solid nav__cta">Get a quote</a>
+
+    <button class="nav__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <nav class="nav__mobile" id="navMobile" aria-label="Mobile">
+    <a href="#services">Services</a>
+    <a href="#specialties">Specialties</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+    <a href="#contact" class="btn btn--solid">Get a quote</a>
+  </nav>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="pulsar" aria-hidden="true">
+    <div class="pulsar__rays"></div>
+    <div class="pulsar__glow"></div>
+    <div class="pulsar__core"></div>
+  </div>
+
+  <div class="wrap hero__inner">
+    <p class="eyebrow">Licensed&nbsp;·&nbsp;Insured&nbsp;·&nbsp;Local</p>
+    <h1 class="hero__title">Wired right.<br>Every&nbsp;time.</h1>
+    <p class="hero__lede">
+      Pulsar Property Improvements handles the electrical work that keeps your
+      home or rental safe, up to code, and ready for whatever you plug into it.
+    </p>
+    <div class="hero__cta">
+      <a href="#contact" class="btn btn--solid">Request a free quote</a>
+      <a href="#services" class="btn btn--ghost">See what we do</a>
+    </div>
+
+    <ul class="creds" aria-label="Credentials">
+      <li><span class="creds__k">Lic#</span> 00-000000 <em>(add yours)</em></li>
+      <li><span class="creds__k">Area</span> Wasatch Back &amp; SLC</li>
+      <li><span class="creds__k">Calls</span> Answered same day</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============ SERVICES ============ -->
+<section class="section" id="services">
+  <div class="wrap">
+    <header class="section__head">
+      <p class="eyebrow eyebrow--dark">What we do</p>
+      <h2 class="section__title">Electrical services, end to end</h2>
+      <p class="section__intro">From a single flickering outlet to a full panel swap, we
+        scope the job clearly, do clean work, and leave it inspection-ready.</p>
+    </header>
+
+    <ul class="grid services" role="list">
+      <li class="card">
+        <span class="card__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M13 2 4 14h6l-1 8 9-12h-6z"/></svg>
+        </span>
+        <h3>Panel upgrades &amp; rewiring</h3>
+        <p>Service upgrades, sub-panels, and rewires that bring older properties up to today's load and code.</p>
+      </li>
+      <li class="card">
+        <span class="card__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><rect x="5" y="3" width="14" height="18" rx="2"/><line x1="9" y1="7" x2="9" y2="7.5"/><line x1="15" y1="7" x2="15" y2="7.5"/><line x1="9" y1="12" x2="9" y2="12.5"/><line x1="15" y1="12" x2="15" y2="12.5"/></svg>
+        </span>
+        <h3>EV charger installation</h3>
+        <p>Level&nbsp;2 home charging installed on a dedicated circuit, sized right for your vehicle and panel.</p>
+      </li>
+      <li class="card">
+        <span class="card__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-4 10.5c.7.8 1 1.5 1 2.5h6c0-1 .3-1.7 1-2.5A6 6 0 0 0 12 3z"/></svg>
+        </span>
+        <h3>Lighting design &amp; install</h3>
+        <p>Recessed, fixture, under-cabinet, and dimming layouts that actually fit how you use each room.</p>
+      </li>
+      <li class="card">
+        <span class="card__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><rect x="3" y="6" width="18" height="12" rx="2"/><line x1="7" y1="10" x2="7" y2="14"/><line x1="11" y1="10" x2="11" y2="14"/><path d="M15 14V10l3 2z"/></svg>
+        </span>
+        <h3>Generators &amp; backup power</h3>
+        <p>Standby and transfer-switch setups so the essentials stay on when the grid doesn't.</p>
+      </li>
+      <li class="card">
+        <span class="card__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M4 12h4l2-6 4 12 2-6h4"/></svg>
+        </span>
+        <h3>Troubleshooting &amp; repairs</h3>
+        <p>Dead circuits, tripping breakers, buzzing switches — we trace the real cause instead of guessing.</p>
+      </li>
+      <li class="card">
+        <span class="card__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3.2"/><path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.5 5.5l2 2M16.5 16.5l2 2M18.5 5.5l-2 2M7.5 16.5l-2 2"/></svg>
+        </span>
+        <h3>Smart home &amp; automation</h3>
+        <p>Smart switches, panels, and sensors wired and configured so the tech is reliable, not fiddly.</p>
+      </li>
+      <li class="card">
+        <span class="card__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M12 3a9 9 0 1 0 9 9"/><circle cx="12" cy="12" r="3"/><path d="M12 9V4"/></svg>
+        </span>
+        <h3>Outdoor &amp; landscape lighting</h3>
+        <p>Path, security, and accent lighting plus weatherproof outlets built to survive Utah winters.</p>
+      </li>
+      <li class="card">
+        <span class="card__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M5 12l4 4 10-10"/><path d="M5 19h14"/></svg>
+        </span>
+        <h3>Code corrections &amp; inspections</h3>
+        <p>Failed an inspection or buying a fixer? We document, correct, and get the sign-off.</p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============ SPECIALTIES (dark feature band) ============ -->
+<section class="band" id="specialties">
+  <div class="band__pulsar" aria-hidden="true"></div>
+  <div class="wrap band__inner">
+    <header class="section__head section__head--center">
+      <p class="eyebrow">What we're known for</p>
+      <h2 class="section__title section__title--light">A few things we do better than most</h2>
+    </header>
+
+    <ol class="specialties" role="list">
+      <li>
+        <span class="specialties__n">01</span>
+        <h3>Whole-home rewires on older properties</h3>
+        <p>Knob-and-tube, aluminum, mystery junction boxes — we untangle aging systems and bring the whole property current without tearing your house apart.</p>
+      </li>
+      <li>
+        <span class="specialties__n">02</span>
+        <h3>EV charging done once, done right</h3>
+        <p>Load calculations, permits, and a clean dedicated circuit so your charger runs at full speed and your panel stays happy.</p>
+      </li>
+      <li>
+        <span class="specialties__n">03</span>
+        <h3>Rental &amp; property-manager work</h3>
+        <p>Turnarounds, safety upgrades, and inspection fixes scheduled around tenants, with clear documentation for your records.</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section class="section about" id="about">
+  <div class="wrap about__grid">
+    <div class="about__copy">
+      <p class="eyebrow eyebrow--dark">Why Pulsar</p>
+      <h2 class="section__title">Straight answers, clean work, no surprises</h2>
+      <p>Pulsar Property Improvements is a local electrical contractor serving homeowners,
+        landlords, and property managers across the Wasatch Back and greater Salt Lake area.
+        Every job is licensed, insured, and pulled to code.</p>
+      <p>We quote the work before we start it, show up when we say we will, and leave the
+        space cleaner than we found it. If something isn't right, we make it right.</p>
+    </div>
+    <ul class="promises" role="list">
+      <li><strong>Licensed &amp; insured.</strong> Permitted and inspection-ready, every time.</li>
+      <li><strong>Upfront pricing.</strong> A clear scope and quote before any work begins.</li>
+      <li><strong>On time.</strong> We respect your schedule and confirm before we arrive.</li>
+      <li><strong>Tidy.</strong> Drop cloths down, debris hauled out, labels left behind.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="section contact" id="contact">
+  <div class="wrap contact__grid">
+    <div class="contact__intro">
+      <p class="eyebrow eyebrow--dark">Get in touch</p>
+      <h2 class="section__title">Tell us about the job</h2>
+      <p>Send a few details and we'll get back to you with next steps or a quote — usually
+        the same business day.</p>
+
+      <ul class="contact__list" role="list">
+        <li>
+          <span class="contact__k">Phone</span>
+          <a href="tel:+10000000000">(000) 000-0000</a>
+        </li>
+        <li>
+          <span class="contact__k">Email</span>
+          <a href="mailto:hello@pulsarpi.com">hello@pulsarpi.com</a>
+        </li>
+        <li>
+          <span class="contact__k">Hours</span>
+          <span>Mon–Sat, 7am–6pm · emergencies anytime</span>
+        </li>
+      </ul>
+    </div>
+
+    <!-- NOTE: set action to your Formspree endpoint (or Netlify/other). See README. -->
+    <form class="form" id="quoteForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" novalidate>
+      <div class="field">
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" autocomplete="name" required />
+        <span class="field__err" data-for="name"></span>
+      </div>
+
+      <div class="field field--row">
+        <div>
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" autocomplete="email" required />
+          <span class="field__err" data-for="email"></span>
+        </div>
+        <div>
+          <label for="phone">Phone</label>
+          <input id="phone" name="phone" type="tel" autocomplete="tel" />
+          <span class="field__err" data-for="phone"></span>
+        </div>
+      </div>
+
+      <div class="field">
+        <label for="service">What do you need?</label>
+        <select id="service" name="service" required>
+          <option value="" selected disabled>Choose a service…</option>
+          <option>Panel upgrade / rewiring</option>
+          <option>EV charger installation</option>
+          <option>Lighting design / install</option>
+          <option>Generator / backup power</option>
+          <option>Troubleshooting / repair</option>
+          <option>Smart home / automation</option>
+          <option>Outdoor / landscape lighting</option>
+          <option>Code correction / inspection</option>
+          <option>Something else</option>
+        </select>
+        <span class="field__err" data-for="service"></span>
+      </div>
+
+      <div class="field">
+        <label for="message">Details</label>
+        <textarea id="message" name="message" rows="4" placeholder="The property, the problem, and any timing that matters." required></textarea>
+        <span class="field__err" data-for="message"></span>
+      </div>
+
+      <button type="submit" class="btn btn--solid form__submit">Send request</button>
+      <p class="form__status" id="formStatus" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="wrap footer__inner">
+    <div class="footer__brand">
+      <img src="assets/ppi-logo.png" alt="Pulsar Property Improvements logo" class="footer__logo" />
+      <p>Licensed electrical contractor serving the Wasatch Back and greater Salt Lake area.</p>
+    </div>
+    <div class="footer__col">
+      <span class="footer__k">Services</span>
+      <a href="#services">Panel &amp; rewiring</a>
+      <a href="#services">EV chargers</a>
+      <a href="#services">Lighting</a>
+      <a href="#services">Repairs</a>
+    </div>
+    <div class="footer__col">
+      <span class="footer__k">Contact</span>
+      <a href="tel:+10000000000">(000) 000-0000</a>
+      <a href="mailto:hello@pulsarpi.com">hello@pulsarpi.com</a>
+      <span class="footer__muted">Lic# 00-000000</span>
+    </div>
+  </div>
+  <div class="wrap footer__base">
+    <span>© <span id="year"></span> Pulsar Property Improvements</span>
+    <a href="#top">Back to top ↑</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
